@@ -1,0 +1,54 @@
+/* Fixed reference canvas: 1260 × 772 px, browser zoom 100%.
+   Coordinates measured from the supplied JPEG; do not add responsive reflow. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 10px; min-width: 1241px; color: #111; font-family: "Times New Roman", serif; font-size: 13px; }
+.page { width: 1241px; border: 1px solid #ac8181; }
+header { height: 65px; display: grid; place-items: center; }
+h1 { margin: 0; color: #ae2929; font-size: 32px; font-style: italic; text-shadow: 5px 6px 1px #efd2d2; }
+nav { height: 37px; border-top: 1px solid #ae7777; background: #ea9696; }
+.nav-inner { height: 100%; display: flex; align-items: center; justify-content: flex-start; margin-left: 289px; }
+.nav-inner > a { color: white; text-decoration: none; font-weight: bold; flex: 0 0 133px; text-align: center; padding: 6px 0; border-right: 1px solid #884bab; }
+.nav-inner > .home { flex-basis: 42px; padding: 0 10px; }
+.nav-inner > a:nth-child(2) { flex-basis: 132px; }
+.home img { display: block; width: 22px; height: 22px; transform: translateY(-3px); }
+.search { display: flex; align-items: center; gap: 3px; margin-left: 47px; transform: translateY(3px); }
+.search input { width: 138px; height: 18px; border: 1px solid #aaa; padding: 0 3px; border-radius: 0; }
+.search button { padding: 0 5px; font-size: 12px; height: 18px; }
+.layout { display: grid; grid-template-columns: 186px 743px 310px; gap: 0; padding-top: 8px; min-height: 578px; align-items: start; }
+.sidebar > a { display: block; height: 25px; margin-bottom: 3px; background: #ea9696; border-radius: 18px; color: white; padding: 5px 16px; text-decoration: none; }
+.company { width: 100%; height: 122px; object-fit: fill; border-radius: 50%; margin-top: 14px; box-shadow: 8px 12px 10px #ffc5ce; }
+main { padding: 0 0 0 8px; }
+#starter { height: 104px; }
+#desserts { height: 105px; }
+main h2 { width: 50%; height: 30px; margin: 0 auto; padding-left: 16px; background: #ea9696; color: #a52a2a; font-size: 28px; line-height: 30px; letter-spacing: 16px; box-shadow: inset 0 0 0 3px #ffffff18; }
+.menu-section ul { margin: 0; padding-left: 32px; line-height: 15px; }
+a.vegetarian { color: red; }
+.menu-section strong { color: #a77337; }
+.back { display: block; color: #b42126; font-weight: bold; line-height: 15px; }
+#information { margin-top: 8px; }
+#information h2 { font-size: 21px; letter-spacing: 13px; height: 23px; line-height: 23px; }
+.information-form { padding: 11px 39px 20px 12px; }
+.fields { display: grid; grid-template-columns: 330px 330px; column-gap: 24px; row-gap: 23.5px; }
+.fields > input, select { width: 100%; height: 41px; padding: 10px; border: 1px solid #999; background: white; border-radius: 0; font: 11px Arial, sans-serif; }
+.nationality { display: flex; align-items: flex-start; padding-top: 1px; }
+.nationality label { display: flex; align-items: center; white-space: nowrap; }
+.nationality input { margin: 0 3px 0 0; width: 12px; height: 12px; }
+textarea { display: block; width: calc(100% - 10px); margin: 28px 6px 11px 4px; height: 57px; padding: 3px; border: 1px solid #999; border-radius: 0; font: 10px Arial, sans-serif; }
+textarea::placeholder { color: #111; opacity: 1; }
+.actions button { height: 32px; padding: 7px 9px; font: 11px Arial, sans-serif; }
+.form-status { margin: 10px 0 0; }
+.events { background: #000; color: white; padding-bottom: 16px; }
+.events > h2 { font-size: 28px; margin: 0; line-height: 32px; }
+.events article { margin: 13px 30px 0; }
+.events article + article { margin-top: 31px; }
+.events h3 { margin: 0; font-size: 20px; line-height: 22px; }
+.events img { display: block; width: 100%; height: 140px; object-fit: fill; }
+.events p { margin: 3px 0 0; line-height: 15px; }
+.events a { color: #e4cccc; }
+footer { height: 65px; line-height: 65px; text-align: center; background: #ea9696; border-top: 1px solid #ae7777; color: white; font-size: 28px; font-weight: bold; font-style: italic; }
+footer sup { font-size: 19px; line-height: 0; vertical-align: super; }
+:focus-visible { outline: 2px solid #842b58; outline-offset: 3px; }
+li.search-match { background: #fff0a5; }
+dialog { max-width: 380px; border: 1px solid #a52a2a; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
